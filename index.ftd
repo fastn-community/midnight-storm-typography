@@ -1,15 +1,8 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
--- import: fifthtry.github.io/inter-font/assets as inter-assets
-
-;; ⚠️fastn-builders::⚠️ before using this file please find and replace inter-font
-;; with font package name you have given inside this package 
-;; `fastn-community.github.io/set-2-typography/FASTN.ftd file
-;; `<font-name>` replace with font you are using. 
-;; remove these comments once you are done.
-
-
+-- import: fastn-community.github.io/lato-font/assets as lato-assets
+-- import: fastn-community.github.io/source-code-pro-font/assets as source-code-pro-font-assets
 
 -- ds.page: 
 show-footer: true
@@ -217,7 +210,7 @@ e.g. `http://127.0.0.1:8001/types` You will see the `page` component using
 Done! isn't it simple? Try this and don't forget to jump on our [Discord](https://discord.gg/bucrdvptYd)
 
 [Click here](fastn-typography/) to know more `fastn` predefined `inherited`
-types using `<font-name>-font` font-family and font-sizes.
+types using `lato-font` and `source-code-pro-font` font-family and font-sizes.
 
 -- end: ds.page
 
@@ -233,18 +226,18 @@ types using `<font-name>-font` font-family and font-sizes.
 
 
 -- ftd.type heading-hero-mobile:
-line-height.px: 60
-size.px: 52
+line-height.px: 64
+size.px: 48
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-hero-desktop:
-line-height.px: 60
-size.px: 52
+line-height.px: 64
+size.px: 48
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type heading-hero:
 desktop: $heading-hero-desktop
@@ -255,18 +248,18 @@ mobile: $heading-hero-mobile
 
 
 -- ftd.type heading-large-mobile:
-line-height.px: 48
-size.px: 40
+line-height.px: 54
+size.px: 36
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-large-desktop:
-line-height.px: 48
-size.px: 40
+line-height.px: 54
+size.px: 36
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type heading-large:
 desktop: $heading-large-desktop
@@ -277,18 +270,18 @@ mobile: $heading-large-mobile
 
 
 -- ftd.type heading-medium-mobile:
-line-height.px: 44
-size.px: 32
+line-height.px: 40
+size.px: 26
 letter-spacing.px: 0
-weight: 600
-font-family: $inter-assets.fonts.Inter
+weight: 700
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-medium-desktop:
-line-height.px: 44
-size.px: 32
+line-height.px: 40
+size.px: 26
 letter-spacing.px: 0
-font-family: $inter-assets.fonts.Inter
-weight: 600
+font-family: $lato-assets.fonts.Lato
+weight: 700
 
 -- ftd.responsive-type heading-medium:
 desktop: $heading-medium-desktop
@@ -299,18 +292,18 @@ mobile: $heading-medium-mobile
 
 
 -- ftd.type heading-small-mobile:
-line-height.px: 36
-size.px: 24
+line-height.px: 29
+size.px: 22
 letter-spacing.px: 0
-weight: 500
-font-family: $inter-assets.fonts.Inter
+weight: 700
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-small-desktop:
-line-height.px: 36
-size.px: 24
+line-height.px: 29
+size.px: 22
 letter-spacing.px: 0
-weight: 500
-font-family: $inter-assets.fonts.Inter
+weight: 700
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type heading-small:
 desktop: $heading-small-desktop
@@ -322,18 +315,18 @@ mobile: $heading-small-mobile
 
 
 -- ftd.type heading-tiny-mobile:
-line-height.px: 26
+line-height.px: 24
 size.px: 18
 letter-spacing.px: 0
-weight: 500
-font-family: $inter-assets.fonts.Inter
+weight: 700
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-tiny-desktop:
-line-height.px: 26
+line-height.px: 24
 size.px: 18
 letter-spacing.px: 0
-weight: 500
-font-family: $inter-assets.fonts.Inter
+weight: 700
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type heading-tiny:
 desktop: $heading-tiny-desktop
@@ -345,16 +338,16 @@ mobile: $heading-tiny-mobile
 
 -- ftd.type copy-large-mobile:
 line-height.px: 28
-size.px: 20
+size.px: 18
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type copy-large-desktop:
 line-height.px: 28
-size.px: 20
+size.px: 18
 letter-spacing.px: 0
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 weight: 400
 
 -- ftd.responsive-type copy-large:
@@ -370,13 +363,13 @@ line-height.px: 24
 size.px: 16
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type copy-regular-desktop:
 line-height.px: 24
 size.px: 16
 letter-spacing.px: 0
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 weight: 400
 
 -- ftd.responsive-type copy-regular:
@@ -388,19 +381,19 @@ mobile: $copy-regular-mobile
 
 
 -- ftd.type copy-small-mobile:
-line-height.px: 20
-size.px: 16
+line-height.px: 16
+size.px: 12
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 
 -- ftd.type copy-small-desktop:
-line-height.px: 20
-size.px: 16
+line-height.px: 16
+size.px: 12
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type copy-small:
 desktop: $copy-small-desktop
@@ -411,18 +404,18 @@ mobile: $copy-small-mobile
 
 
 -- ftd.type fine-print-mobile:
-line-height.px: 18
-size.px: 14
+line-height.px: 16
+size.px: 12
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type fine-print-desktop:
-line-height.px: 18
-size.px: 14
+line-height.px: 16
+size.px: 12
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type fine-print:
 desktop: $fine-print-desktop
@@ -433,18 +426,18 @@ mobile: $fine-print-mobile
 
 
 -- ftd.type blockquote-mobile:
-line-height.px: 16
-size.px: 14
+line-height.px: 21
+size.px: 16
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type blockquote-desktop:
-line-height.px: 16
-size.px: 14
+line-height.px: 21
+size.px: 16
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type blockquote:
 desktop: $blockquote-desktop
@@ -455,18 +448,18 @@ mobile: $blockquote-mobile
 
 
 -- ftd.type source-code-mobile:
-line-height.px: 16
-size.px: 14
+line-height.px: 21
+size.px: 16
 letter-spacing.px: 0
-weight: 400
-font-family: $inter-assets.fonts.Inter
+weight: 600
+font-family: $source-code-pro-font-assets.fonts.Source-Code-Pro
 
 -- ftd.type source-code-desktop:
-line-height.px: 16
-size.px: 14
+line-height.px: 21
+size.px: 16
 letter-spacing.px: 0
-weight: 400
-font-family: $inter-assets.fonts.Inter
+weight: 600
+font-family: $source-code-pro-font-assets.fonts.Source-Code-Pro
 
 -- ftd.responsive-type source-code:
 desktop: $source-code-desktop
@@ -477,18 +470,18 @@ mobile: $source-code-mobile
 
 
 -- ftd.type label-large-mobile:
-line-height.px: 22
-size.px: 16
+line-height.px: 19
+size.px: 14
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type label-large-desktop:
-line-height.px: 22
-size.px: 16
+line-height.px: 19
+size.px: 14
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type label-large:
 desktop: $label-large-desktop
@@ -500,17 +493,17 @@ mobile: $label-large-mobile
 
 -- ftd.type label-small-mobile:
 line-height.px: 16
-size.px: 14
+size.px: 12
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type label-small-desktop:
 line-height.px: 16
-size.px: 14
+size.px: 12
 letter-spacing.px: 0
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type label-small:
 desktop: $label-small-desktop
@@ -525,14 +518,14 @@ line-height.px: 24
 size.px: 18
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type button-large-desktop:
 line-height.px: 24
 size.px: 18
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type button-large:
 desktop: $button-large-desktop
@@ -546,15 +539,15 @@ mobile: $button-large-mobile
 line-height.px: 21
 size.px: 16
 letter-spacing.px: 0
-weight: 400
-font-family: $inter-assets.fonts.Inter
+weight: 700
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type button-medium-desktop:
 line-height.px: 21
 size.px: 16
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type button-medium:
 desktop: $button-medium-desktop
@@ -568,15 +561,15 @@ mobile: $button-medium-mobile
 line-height.px: 19
 size.px: 14
 letter-spacing.px: 0
-weight: 400
-font-family: $inter-assets.fonts.Inter
+weight: 700
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type button-small-desktop:
 line-height.px: 19
 size.px: 14
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type button-small:
 desktop: $button-small-desktop
@@ -590,15 +583,15 @@ mobile: $button-small-mobile
 line-height.px: 19
 size.px: 14
 letter-spacing.px: 0
-weight: 400
-font-family: $inter-assets.fonts.Inter
+weight: 500
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.type link-desktop:
 line-height.px: 19
 size.px: 14
 letter-spacing.px: 0
-weight: 700
-font-family: $inter-assets.fonts.Inter
+weight: 500
+font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type link:
 desktop: $link-desktop
