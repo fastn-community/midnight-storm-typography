@@ -233,8 +233,8 @@ weight: 700
 font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-hero-desktop:
-line-height.px: 64
-size.px: 48
+line-height.px: 104
+size.px: 80
 letter-spacing.px: 0
 weight: 700
 font-family: $lato-assets.fonts.Lato
@@ -255,8 +255,8 @@ weight: 700
 font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-large-desktop:
-line-height.px: 54
-size.px: 36
+line-height.px: 65
+size.px: 50
 letter-spacing.px: 0
 weight: 700
 font-family: $lato-assets.fonts.Lato
@@ -277,8 +277,8 @@ weight: 700
 font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-medium-desktop:
-line-height.px: 40
-size.px: 26
+line-height.px: 57
+size.px: 38
 letter-spacing.px: 0
 font-family: $lato-assets.fonts.Lato
 weight: 700
@@ -299,8 +299,8 @@ weight: 700
 font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-small-desktop:
-line-height.px: 29
-size.px: 22
+line-height.px: 31
+size.px: 24
 letter-spacing.px: 0
 weight: 700
 font-family: $lato-assets.fonts.Lato
@@ -322,8 +322,8 @@ weight: 700
 font-family: $lato-assets.fonts.Lato
 
 -- ftd.type heading-tiny-desktop:
-line-height.px: 24
-size.px: 18
+line-height.px: 26
+size.px: 20
 letter-spacing.px: 0
 weight: 700
 font-family: $lato-assets.fonts.Lato
@@ -344,8 +344,8 @@ weight: 400
 font-family: $lato-assets.fonts.Lato
 
 -- ftd.type copy-large-desktop:
-line-height.px: 28
-size.px: 18
+line-height.px: 34
+size.px: 22
 letter-spacing.px: 0
 font-family: $lato-assets.fonts.Lato
 weight: 400
@@ -366,8 +366,8 @@ weight: 400
 font-family: $lato-assets.fonts.Lato
 
 -- ftd.type copy-regular-desktop:
-line-height.px: 24
-size.px: 16
+line-height.px: 30
+size.px: 18
 letter-spacing.px: 0
 font-family: $lato-assets.fonts.Lato
 weight: 400
@@ -389,8 +389,8 @@ font-family: $lato-assets.fonts.Lato
 
 
 -- ftd.type copy-small-desktop:
-line-height.px: 16
-size.px: 12
+line-height.px: 24
+size.px: 14
 letter-spacing.px: 0
 weight: 400
 font-family: $lato-assets.fonts.Lato
@@ -414,7 +414,7 @@ font-family: $lato-assets.fonts.Lato
 line-height.px: 16
 size.px: 12
 letter-spacing.px: 0
-weight: 400
+weight: 500
 font-family: $lato-assets.fonts.Lato
 
 -- ftd.responsive-type fine-print:
@@ -455,8 +455,8 @@ weight: 600
 font-family: $source-code-pro-font-assets.fonts.Source-Code-Pro
 
 -- ftd.type source-code-desktop:
-line-height.px: 21
-size.px: 16
+line-height.px: 30
+size.px: 18
 letter-spacing.px: 0
 weight: 600
 font-family: $source-code-pro-font-assets.fonts.Source-Code-Pro
