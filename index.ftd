@@ -1,6 +1,6 @@
--- import: fastn-community.github.io/package-doc/doc as pd
--- import: fastn-community.github.io/package-doc/forest-theme as ds
--- import: fastn-community.github.io/package-doc/footer
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fifthtry.github.io/package-doc/footer
 -- import: fastn-community.github.io/lato-font/assets as lato-assets
 -- import: fastn-community.github.io/source-code-pro-font/assets as source-code-pro-font-assets
 
