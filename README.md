@@ -1,6 +1,6 @@
 # Set 2 Typography: fastn Font Typography Package
 
-This repository contains a fastn font typography package for [Set 2 DS](https://fastn-community.github.io/set-2-ds/).
+This repository contains a fastn font typography package for [Set 2 DS](https://fastn-community.github.io/midnight-storm/).
 
 It uses below fastn fonts packages:
 
@@ -9,7 +9,7 @@ It uses below fastn fonts packages:
 
 ## How To Use This Font Typography In Your fastn Package:
 
-Read documentation [Set-2-typography](https://fastn-community.github.io/set-2-typography/)
+Read documentation [Set-2-typography](https://fastn-community.github.io/midnight-storm-typography/)
 
 ## 👀 Want to learn more?
 

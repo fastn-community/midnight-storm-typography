@@ -1,14 +1,14 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
--- import: fastn-community.github.io/set-2-typography
+-- import: fastn-community.github.io/midnight-storm-typography
 
 
 
 
 -- ds.page: 
 show-footer: true
-site-name: `set-2-typography`
+site-name: `midnight-storm-typography`
 
 -- ds.page.footer:
 
@@ -16,14 +16,14 @@ site-name: `set-2-typography`
 
 -- end: ds.page.footer
 
--- pd.package: set-2-typography
-name: fastn-community.github.io/set-2-typography
+-- pd.package: midnight-storm-typography
+name: fastn-community.github.io/midnight-storm-typography
 
-Below are our default fastn `inherited` font types of set-2-typography.
+Below are our default fastn `inherited` font types of midnight-storm-typography.
 
 
 -- display-type:
-types: $set-2-typography.types
+types: $midnight-storm-typography.types
 
 
 -- end: ds.page
