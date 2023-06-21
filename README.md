@@ -5,7 +5,7 @@ multiple ftd midnight-storm-typography components can be used on your pages.
 
 # Preview
 
-![Midnight-storm-typography](static/midnight-storm-typography-screenshot.png)
+![Midnight-storm-typography](.github/assets/midnight-storm-typography-screenshot.png)
 
 # Get Rolling
 
