@@ -1,27 +1,36 @@
-# Welcome to [FASTN midnight-storm-typography](https://fastn-community.github.io/midnight-storm-typography/)
-![Contributors](https://img.shields.io/github/contributors/fastn-community/midnight-storm-typography?color=dark-green) [![Discord](https://img.shields.io/discord/793929082483769345)](https://discord.com/channels/793929082483769345/) ![License](https://img.shields.io/github/license/fastn-community/midnight-storm-typography)
-# Overview
+# Midnight-storm-typography
 
-⚡️ [midnight-storm-typography](https://fastn-community.github.io/midnight-storm-typography/) will help you create a beautiful documentation site in no time.
+fastn-community.github.io/midnight-storm-typography is a fastn midnight-storm-typography component which contains
+multiple ftd midnight-storm-typography components can be used on your pages.
 
-It provides out-of-the-box documentation features that can be used to create any kind of site(personal website, blog, etc).
+# Preview
 
-## How it looks?
+![Midnight-storm-typography](.github/assets/midnight-storm-typography-screenshot.png)
 
-![midnight-storm-typography](/static/midnight-storm-typography-dark-example.png)
+# Get Rolling
 
-## 🚀 Fast Track
+[Click here](https://fastn-community.github.io/midnight-storm-typography/) to learn how to use this package.
 
-Use this fastn template to create your first [fastn web-site](https://fastn.com/expander/hello-world/-/build/) project in just 5 minutes!
+# [Dive into the Docs](https://fastn-community.github.io/midnight-storm-typography/)
 
-## 🌟 Whats next?
+# See it in Action! 
 
-Read our [midnight-storm-typography documentation](https://fastn-community.github.io/midnight-storm-typography/)
+Explore websites and projects that have utilized this component [here](https://fastn.com/home/)
+for inspiration.
 
-Create your first page. [Click here to know more](https://fastn-community.github.io/midnight-storm-typography/page/)
+# [Changelog](Changelog.md)
 
-## ⚓ [Changelog](Changelog.md)
+# fastn and Curious?
 
-## 👀 Want to learn more?
+Discover more of fastn here.
 
-Feel free to check our [expander course](https://fastn.com/expander/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+- [Expander Crash Course](https://fastn.com/expander/)
+- [Video Tutorials](https://fastn.com/expander/hello-world/-/build/)
+- [Explore more Templates/ Components/ Package](https://fastn.com/featured/)
+
+## Become a fastn-trailblazer
+
+- [Join our Discord Server](https://discord.gg/bucrdvptYd) to connect with other fastn enthusiasts and stay up to date with the latest developments.
+- [Star us on GitHub](https://github.com/fastn-stack/fastn/)
+
+## License - [Open Source BSD](https://github.com/fastn-community/midnight-storm-typography/blob/main/LICENSE)
