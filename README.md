@@ -18,7 +18,6 @@ multiple ftd midnight-storm-typography components can be used on your pages.
 Explore websites and projects that have utilized this component [here](https://fastn.com/home/)
 for inspiration.
 
-
 # [Changelog](Changelog.md)
 
 # fastn and Curious?
@@ -28,14 +27,6 @@ Discover more of fastn here.
 - [Expander Crash Course](https://fastn.com/expander/)
 - [Video Tutorials](https://fastn.com/expander/hello-world/-/build/)
 - [Explore more Templates/ Components/ Package](https://fastn.com/featured/)
-
-# Become a fastn Contributor
-
-Here's your roadmap:
-
-1.  Finish the [Expander Crash Course](https://fastn.com/expander/)
-2.  Share your progress and ideas on [Discord](https://discord.gg/bucrdvptYd).
-3.  Let our team guide you on your contributor journey.
 
 ## Become a fastn-trailblazer
 
